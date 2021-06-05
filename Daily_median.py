@@ -15,7 +15,7 @@ liste3=[]
 
 for i in liste:
     name=i
-    x=df.loc[i]["daily_vaccinations"].mean()
+    x=df.loc[name]["daily_vaccinations"].mean()
     liste2.append([x,name])
     #print(i,x)
 
